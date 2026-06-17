@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 70px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 20%;
+  min-height: 100vh;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+}

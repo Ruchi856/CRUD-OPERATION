@@ -1,0 +1,40 @@
+{
+  "Students": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1gmail.com",
+      "course": "CS",
+      "mobile": "1234567891"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2gmail.com",
+      "course": "CSS",
+      "mobile": "2345678912"
+    },
+    {
+      "id": "3",
+      "name": "user3",
+      "email": "user3gmail.com",
+      "course": "JAVASCRIPT",
+      "mobile": "3456789123"
+    },
+    {
+      "name": "kavya",
+      "email": "kavya@gmail.com",
+      "course": "python",
+      "mobile": "7653425672",
+      "id": "W_2NIFFyZ8A"
+    },
+    {
+      "name": "ruchi",
+      "email": "ruchi@gmail.com",
+      "course": "python full stack",
+      "mobile": "7653489736",
+      "id": "9TTyru3ayhA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

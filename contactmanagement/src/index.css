@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 2% 5%;
+  background-color: #404040;
+}
+
+header a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 90%;
+  background-color: whitesmoke;
+  min-height: 70vh;
+  margin: 1vh auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 15%;
+
+}
+
+.card {
+  width:450px;
+  height: 250px;
+  background-color: lightblue;
+  color : black;
+}
+
+
+
+nav ul li {
+  list-style: none;
+  padding: 5%;
+  background-color: #404040;
+  margin-bottom: 1vh;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+.container {
+  width: 84%;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.title {
+  padding: 2%;
+  background-color: whitesmoke;
+  color: gray;
+  
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 2px solid #333333; 
+}
+
+
+.student-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #333333; 
+}
+
+
+.student-table td {
+  padding: 12px;
+  border: 1px solid #666666; 
+  color: #000000;
+}
+
+
+.student-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+.student-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.box {
+  width: 30%;
+  height: 40vh;
+  background-color: lightblue;
+  margin: auto;
+  padding: 2%;
+  margin-top: 1vh;  
+}
+
+
+.box input {
+  display: block;
+  width: 90%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+.box input:focus {
+  border-color: #555;
+}
+
+
+.box button {
+  background-color: black;
+  color: white;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 2%;
+  margin: auto;
+  display: block;
+  margin-top: 1vh;
+}
+
+.box button:hover {
+  background-color: #333; 
+}
+
+h1:not(.title) {
+  font-size: 18px;
+  color: #444;
+  margin: 5px 0;
+  font-weight: normal;
+}
