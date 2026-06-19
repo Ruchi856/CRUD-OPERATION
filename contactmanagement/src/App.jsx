@@ -10,6 +10,7 @@ import View from "./components/View";
 import Home from "./components/Home";
 import Card from "./components/Card";
 import EditForm from "./components/EditForm";
+import Del from "./components/Del";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               <Route path="/update" element={<Update />} />
               <Route path="/update/:id" element={<EditForm />} />
               <Route path="/delete" element={<Delete />} />
+              <Route path="/del/:id" element={<Del />} />
             </Routes>
           </div>
         </main>

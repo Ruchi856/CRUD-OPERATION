@@ -25,7 +25,7 @@ function Delete() {
         <td>{student.course}</td>
         <td>{student.mobile}</td>
         <td>
-        <Link to={student.id} className="Delete-link">
+        <Link to={`/Del/${student.id}`} className="Delete-link">
           Delete
         </Link>
         </td>
